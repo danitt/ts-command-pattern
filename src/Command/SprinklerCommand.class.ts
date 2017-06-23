@@ -7,6 +7,7 @@ export class SprinklerCommand implements CommandInterface {
   execute = () => {
     const action = this.state ? this.sprinkler.waterOff() : this.sprinkler.waterOn()
     this.state = !this.state
-    return action
+    console.log(action)
+    return true
   }
 }

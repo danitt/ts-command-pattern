@@ -1,4 +1,4 @@
 export class Sprinkler {
-  waterOn = () => 'Sprinklers turned on'
-  waterOff = () => 'Sprinklers turned off'
+  waterOn = () => 'Sprinklers switched on'
+  waterOff = () => 'Sprinklers switched off'
 }

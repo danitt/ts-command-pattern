@@ -7,6 +7,7 @@ export class LightCommand implements CommandInterface {
   execute = () => {
     const action = this.state ? this.light.lightOff() : this.light.lightOn()
     this.state = !this.state
-    return action
+    console.log(action)
+    return true
   }
 }

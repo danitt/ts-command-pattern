@@ -7,6 +7,7 @@ export class GarageCommand implements CommandInterface {
   execute = () => {
     const action = this.state ? this.garage.garageDown() : this.garage.garageUp()
     this.state = !this.state
-    return action
+    console.log(action)
+    return true
   }
 }
